@@ -1,2 +1,4 @@
 # purviens-wdd-130
-This is my final project for WDD 130 @ BYUI
+Owner: Sam Purvines
+
+Semester: winter 2021
