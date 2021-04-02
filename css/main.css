@@ -9,11 +9,11 @@
     --alt-font-color: darkslategray;
     --border-color: black;
     /* Dark Mode Colors */
-    --dark-background-color: black;
-    --dark-alt-background-color: darkslategray;
-    --dark-font-color: white;
-    --dark-alt-font-color: gainsboro;
-    --dark-border-color: white;
+    --dark-background-color: rgb(27, 25, 25);
+    --dark-alt-background-color: rgb(37, 44, 44);
+    --dark-font-color: rgb(219, 118, 60);
+    --dark-alt-font-color: rgb(255, 255, 255);
+    --dark-border-color:rgb(219, 118, 60);
 }
 
 html, body {
@@ -246,4 +246,52 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn {
 
 body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
     background-color: var(--dark-border-color);
+}
+
+header #logo{
+
+    height:220px;
+    width:220px;
+}
+
+main .orange{
+
+    height:300px;
+    width:300px;
+    border-radius:20%;
+    padding: 10px
+
+}
+.orange:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+#add{
+    height:auto;
+    width:100%;
+}
+#text-center{
+    text-align: center;
+    font-size: 30px;
+    border-radius:1%;
+
+}
+
+#paintings-right{
+    background-color:rgb(241, 206, 92);
+    border-radius:1%;
+}
+#paintings-left{
+    background-color:rgb(105, 124, 233);
+    width:100%;
+    border-radius:1%;
+}
+.footer-links{
+      
 }
