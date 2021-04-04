@@ -4,7 +4,7 @@
     --font-size: 1.15rem;
     /* Normal Colors */
     --background-color: white;
-    --alt-background-color: gainsboro;
+    --alt-background-color: rgb(240, 234, 157);
     --font-color: black;
     --alt-font-color: darkslategray;
     --border-color: black;
@@ -277,6 +277,7 @@ main .orange{
     width:100%;
 }
 #text-center{
+    font-family: 'Train One', cursive;
     text-align: center;
     font-size: 30px;
     border-radius:1%;
@@ -292,6 +293,81 @@ main .orange{
     width:100%;
     border-radius:1%;
 }
-.footer-links{
+button{
+    background-color: tan;
+    transition-duration: 0.4s;
+    border-radius:4px;
+    padding: 5px 30px
+}
       
+button:hover{
+    background-color: white;
+    border: 2px soild white;
+}
+body.dark-mode button:hover{
+    background-color: black;
+    border: 2px soild black;
+}
+
+table{
+    border:4px solid black
+}
+
+#contact-form{
+    width: 500px;
+    padding:15px;
+    margin:0 auto;
+    border:2px solid;
+    border-radius: 15px;
+}
+
+#text-contact{
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em
+}
+
+.card {
+    width:250px;
+    height:100%;
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+  
+  .artist{
+    width:220px;
+    height:220px;
+  }
+  .artists-text{
+    font-size: 20px;
+  }
+main #top-text{
+    text-align: center;
+}
+.table-rows{
+    border:2px solid black;
+    padding : 10px;
+}
+
+.artwork{
+    height:300px;
+    width:300px;
+    border-radius:20%;
+    margin: 20px
+}
+.artist-name{
+    margin:20px;
+    text-decoration: underline;
 }
